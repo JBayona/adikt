@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from './Nav';
 import Home from './home/Home';
 import Register from './register/Register';
+import Create from './create/Create';
 import * as Env from "./environments";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -18,6 +19,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home}></Route>
           <Route path="/register" exact component={Register}></Route>
+          <Route path="/create" exact component={Create}></Route>
         </Switch>
       </div>
     </Router>
