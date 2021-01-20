@@ -1,0 +1,2 @@
+# adikt
+Adikt App
